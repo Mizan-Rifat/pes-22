@@ -4022,6 +4022,8 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 __webpack_require__(/*! alpinejs */ "./node_modules/alpinejs/dist/alpine.js");
 
+__webpack_require__(/*! ./index */ "./resources/js/index.js");
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
@@ -4052,6 +4054,16 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     forceTLS: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/index.js":
+/*!*******************************!*\
+  !*** ./resources/js/index.js ***!
+  \*******************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\xampp\\htdocs\\pes-22\\resources\\js\\index.js: Support for the experimental syntax 'jsx' isn't currently enabled (5:10):\n\n\u001b[0m \u001b[90m 3 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 4 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mdefault\u001b[39m \u001b[36mfunction\u001b[39m \u001b[33mApp\u001b[39m() {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 5 |\u001b[39m   \u001b[36mreturn\u001b[39m \u001b[33m<\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[33mHello\u001b[39m\u001b[33m<\u001b[39m\u001b[33m/\u001b[39m\u001b[33mh1\u001b[39m\u001b[33m>\u001b[39m\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m   |\u001b[39m          \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 6 |\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 7 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 8 |\u001b[39m \u001b[36mif\u001b[39m (document\u001b[33m.\u001b[39mgetElementById(\u001b[32m'app'\u001b[39m)) {\u001b[0m\n\nAdd @babel/preset-react (https://git.io/JfeDR) to the 'presets' section of your Babel config to enable transformation.\nIf you want to leave it as-is, add @babel/plugin-syntax-jsx (https://git.io/vb4yA) to the 'plugins' section to enable parsing.\n    at Parser._raise (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:807:17)\n    at Parser.raiseWithData (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:800:17)\n    at Parser.expectOnePlugin (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:3281:18)\n    at Parser.parseExprAtom (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:11544:20)\n    at Parser.parseExprSubscripts (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:11119:23)\n    at Parser.parseUpdate (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:11099:21)\n    at Parser.parseMaybeUnary (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:11077:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:10900:77)\n    at Parser.parseExprOps (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:10907:23)\n    at Parser.parseMaybeConditional (C:\\xampp\\htdocs\\pes-22\\node_modules\\@babel\\parser\\lib\\index.js:10877:23)");
 
 /***/ }),
 
