@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('{reactRoutes}', function () {
-    return view('main'); 
-    })->where('reactRoutes', '^((?!api).)*$');
+    return view('main');
+})->where('reactRoutes', '^((?!api).)*$');
 
 Route::get('/', function () {
     return view('welcome');
