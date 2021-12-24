@@ -1,20 +1,11 @@
+import axios from 'axios';
 import React from 'react';
-import ReactDOM from 'react-dom';
 
-function App() {
-  return (
-    <div className="container">
-      <div className="row justify-content-center">
-        <div className="col-md-8">
-          <div className="card">
-            <div className="card-header">Example Component</div>
-
-            <div className="card-body">I'm an example component!</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+const App = () => {
+  const handleRegistration = () => {
+    axios.post('/');
+  };
+  return <button onClick={handleRegistration}> Register</button>;
+};
 
 export default App;
