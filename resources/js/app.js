@@ -1,2 +1,2 @@
 require('./bootstrap');
-require('./Main');
+require('./react/Main');
